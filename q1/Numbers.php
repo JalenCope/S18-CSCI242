@@ -12,11 +12,7 @@ class Numbers {
 	*/
         public static function getLoneliest()
         {
-                /* BEGIN ANSWER SECTION */
-
-
-
-                /* END ANSWER SECTION */
+                return 'The Loneliest Number'. $this->ONE;
         }
 }
 

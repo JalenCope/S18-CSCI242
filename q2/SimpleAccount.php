@@ -1,10 +1,28 @@
 <?php
 
-class SimpleAccount
-{
+class SimpleAccount{ 
+     
+    public $balance = ""
+    
+    public function __construct() {
+    }
 
-	/* BEGIN ANSWER SECTION */
+     public function deposit()
+     {
+      return 'Balance: '. $this->balance;
+     }  
 
-	/* END ANSWER SECTION */
-
+     public function withdrawal($amount)
+     {
+       if (($this->balance)<$amount){ 
+          echo 'Not enough money'; 
+       } else { 
+    
+        $this->balance=$this->balance - $amount;
+      }
+       public function getBalance()
+      {
+      return 'Balance: '. $this->balance;
+      }  
+  }
 }

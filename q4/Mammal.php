@@ -1,4 +1,6 @@
 <?php
-/* BEGIN ANSWER SECTION */
-
-/* END ANSWER SECTION */
+abstract class Mammal
+{
+   abstract public function communicate(); //Tells the child classes what they must enforce
+                                         
+}

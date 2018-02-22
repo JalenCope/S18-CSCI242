@@ -1,0 +1,25 @@
+Encapsulation -  is when you hide stuff in your objects from the public. The public 
+would be considered outside the object. Variables or methods private
+and protected. I like to refer to encapsulation as security.
+
+Inheritance - one parent passes on methods that the children inherit. 
+
+Interfaces - specifies methods that must be used by the class. Interfaces 
+are defined like classes, but with the interface keyword replaces the class keyword. 
+
+Polymorphism - describes a pattern in object oriented programming in which classes 
+have different functionality while sharing a common interface.
+
+Characters // basic class services as a bank for all the powers a character 
+           // will have
+ - Hp
+ - ArmorVaule 
+ - MagicPower
+
+//diferrent types of characters but they all have thing in common
+//atrrtibetes that are applied to all of these creators
+
+Wolf extends Characters// child of character so they are going to inherit all the poperties
+Horse extends Characters // child of character so they are going to inherit all the poperties
+Dragon extends Characters // child of character so they are going to inherit all the poperties
+Human extends Characters // child of character so they are going to inherit all the poperties

@@ -1,3 +1,7 @@
+//.htaccess is the default name for a file that is used to indicate who can or cannot access the contents of a 
+specific file directory from the Internet or an intranet. The .htaccess file is a configuration file that resides 
+in a directory and indicates which users or groups of users can be allowed access to the files contained in that directory.
+
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
